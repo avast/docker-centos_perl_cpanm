@@ -6,3 +6,4 @@ MAINTAINER Avast Viruslab Systems
 RUN yum -y update; yum clean all;
 
 RUN yum -y install epel-release; yum -y install perl-core; yum -y install perl-App-cpanminus; yum -y install gcc
+RUN yum install -y gcc-c++
